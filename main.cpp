@@ -8,8 +8,7 @@
 
 #include <iostream>
 #include "gameBoard.hpp"
-#include <stdio.h>
-#include <ctype.h>
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
