@@ -9,7 +9,6 @@
 #ifndef gameBoard_hpp
 #define gameBoard_hpp
 
-#include <stdio.h>
 class Game{
 private:
     char array[3][3] =
