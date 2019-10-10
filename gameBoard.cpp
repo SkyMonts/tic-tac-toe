@@ -38,7 +38,7 @@ void Game:: getBoard(){
 bool Game:: boardFull(){
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
-            if(array[i][j] != 'X' && array[i][j] != 'O'){
+            if(array[i][j] != 'X' || array[i][j] != 'O'){
                 return false;
             }
         }
